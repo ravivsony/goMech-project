@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  height: 2.5rem;
+  font-family: "Lato", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.first-banner {
+  background: url("https://previews.123rf.com/images/singpentinkhappy/singpentinkhappy2010/singpentinkhappy201003158/158282476-colorful-abstract-banner-template-with-dummy-text-for-website-design-landing-page-and-print-material.jpg");
+}
+
+.second-banner {
+  background: url("https://previews.123rf.com/images/singpentinkhappy/singpentinkhappy2010/singpentinkhappy201003319/158285410-colorful-abstract-banner-template-with-dummy-text-for-website-design-landing-page-and-print-material.jpg");
+}
+
+.third-banner {
+  background: url("https://previews.123rf.com/images/batareykin/batareykin1509/batareykin150900206/45713099-background-unusual-modern-material-design-abstract-illustration-.jpg");
+}
+
+.first-banner,
+.second-banner,
+.third-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=header.css.map */

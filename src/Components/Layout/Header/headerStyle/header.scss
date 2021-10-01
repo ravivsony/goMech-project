@@ -1,0 +1,43 @@
+$header-color:black;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+        .header{
+        background-color: $header-color;
+        width:100%;
+        height: 2.5rem;
+        font-family: "Lato", sans-serif;
+        display: flex;
+        flex-direction: row;
+        
+        
+        h2{
+          color: white;
+          font-size: 1.8rem;
+
+
+      }
+    }
+.first-banner {
+        background: url("https://previews.123rf.com/images/singpentinkhappy/singpentinkhappy2010/singpentinkhappy201003158/158282476-colorful-abstract-banner-template-with-dummy-text-for-website-design-landing-page-and-print-material.jpg");
+      }
+      
+.second-banner {
+        background: url("https://previews.123rf.com/images/singpentinkhappy/singpentinkhappy2010/singpentinkhappy201003319/158285410-colorful-abstract-banner-template-with-dummy-text-for-website-design-landing-page-and-print-material.jpg");
+      }
+      
+.third-banner {
+        background: url("https://previews.123rf.com/images/batareykin/batareykin1509/batareykin150900206/45713099-background-unusual-modern-material-design-abstract-illustration-.jpg");
+      }
+      
+.first-banner,
+.second-banner,
+.third-banner
+{
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}

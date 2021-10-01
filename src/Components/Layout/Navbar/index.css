@@ -1,0 +1,62 @@
+div ul{
+    display: flex;
+    list-style: none;
+    width: 90vw;
+    margin: 0;
+    height: 3em;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+
+}
+div .nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5.5em;
+    cursor: pointer;
+    
+}
+.searchBar{
+    border-radius: 3rem;
+    height: 5vh;
+    padding-left: 1rem;
+}
+.btn{
+    margin-left: 0.3rem;
+    border-radius: 3rem;
+    height: 5vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+div .navigation{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+   
+
+}
+
+div .navigation:link{
+    text-decoration: none;
+    color: black;
+}
+
+div .navigation:hover {
+    text-decoration-line: underline;
+    color:red;
+    text-decoration-color: blue; 
+    overflow: auto;
+   
+
+}
+.linkInfo{
+    background-color:rgb(124, 173, 196);
+    opacity: 0.8;
+    
+}
+
