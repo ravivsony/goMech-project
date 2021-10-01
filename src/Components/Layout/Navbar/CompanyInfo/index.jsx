@@ -7,6 +7,7 @@ const CompanyInfo = () => {
     "Company Growth",
     "Factory",
     "Certifications",
+    "Achievements",
   ];
   return aboutUs.map((item) => {
     return <h2>{item}</h2>;
