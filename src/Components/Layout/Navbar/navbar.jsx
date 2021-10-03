@@ -15,18 +15,17 @@ const Navbar = () => {
   const menu = ["products", "about", "contact"];
 
   useEffect(() => {
-    console.log("hello world");
-    if (targetId === "products") {
-      setProductCategory(targetId === "products" && <ProductInfo />);
-     
-    } else {
-      setCompanyDetails(targetId === ~"about" && <CompanyInfo />);
-      
-    }
-  }, [targetId]);
+    setProductCategory(
+      targetId === "products" && hovered ? <ProductInfo /> : <></>
+    );
+
+    setCompanyDetails(
+      targetId === "about" && hovered ? <CompanyInfo /> : <></>
+    );
+  }, [targetId, hovered]);
 
   function handleMouseEnter(e) {
-    console.log(e.currentTarget.id);
+    // console.log(e.currentTarget.id);
     setHovered(true);
     setTargetId(e.currentTarget.id);
   }
