@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Layout from "./Components/Layout"
+import Layout from "./Components/Layout/layout";
 
-import {BrowserRouter} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import reportWebVitals from "./reportWebVitals";
 

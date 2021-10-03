@@ -61,4 +61,13 @@ div .navigation :hover {
     opacity: 0.8;
     
 }
+.product-item:hover{
+    color: black;
+    opacity: 0.5;
+}
+.company-about:hover{
+color: black;
+opacity: 0.5;
+}
+
 

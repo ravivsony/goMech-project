@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Banner from "../Header/Banner";
 import { NavLink } from "react-router-dom";
-import ProductInfo from "./ProductInfo/index";
-import CompanyInfo from "./CompanyInfo/index";
+import ProductInfo from "./ProductInfo/productInfo";
+import CompanyInfo from "./CompanyInfo/companyInfo";
 import Search from "../Header/Search";
-import "./index.css";
+import "./navbar.css";
 
 const Navbar = () => {
   const [hovered, setHovered] = useState(false);
@@ -25,7 +25,6 @@ const Navbar = () => {
   }, [targetId, hovered]);
 
   function handleMouseEnter(e) {
-  
     setHovered(true);
     setTargetId(e.currentTarget.id);
   }
@@ -74,8 +73,12 @@ const Navbar = () => {
               );
             })}
           </ul>
-          <div className="linkInfo">{productCategory}</div>
-          <div className="linkInfo">{companyDetails}</div>
+          <div className="linkInfo" onMouseEnter={() => setHovered(true)}>
+            {productCategory}
+          </div>
+          <div className="linkInfo" onMouseEnter={() => setHovered(true)}>
+            {companyDetails}
+          </div>
         </div>
 
         <div>
