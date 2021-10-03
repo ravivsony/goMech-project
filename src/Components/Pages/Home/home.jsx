@@ -4,7 +4,8 @@ import "../Content/index.css";
 const Home = () => {
   return (
     <>
-      <h2 >Our Products</h2>
+      <h2>Our Products</h2>
+      <br></br>
       <div className="products">
         <div className="product-1">
           <img

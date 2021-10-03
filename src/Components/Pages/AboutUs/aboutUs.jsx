@@ -4,6 +4,7 @@ const AboutUs = () => {
   return (
     <>
       <h2>About us</h2>
+      <br></br>
     </>
   );
 };

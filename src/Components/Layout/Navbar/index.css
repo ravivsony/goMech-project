@@ -1,12 +1,9 @@
 div ul{
     display: flex;
     list-style: none;
-    width: 90vw;
     margin: 0;
-    height: 3em;
     align-items: center;
     font-family: "Quicksand", sans-serif;
-
 }
 div .nav-links{
     display: flex;
@@ -37,22 +34,27 @@ div .navigation{
     text-decoration: none;
     text-transform: capitalize;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 
 }
-
-div .navigation:link{
+div .link{
     text-decoration: none;
     color: black;
 }
+div .navigation :link {
+    text-decoration: none;
+    color: black;
+   font-size: 1.3em;
 
-div .navigation:hover {
+}
+div .navigation :hover {
+
     text-decoration-line: underline;
-    color:red;
+    color: red;
     text-decoration-color: blue; 
-    overflow: auto;
-   
-
 }
 .linkInfo{
     background-color:rgb(124, 173, 196);
