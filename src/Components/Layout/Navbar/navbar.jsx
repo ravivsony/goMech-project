@@ -25,7 +25,7 @@ const Navbar = () => {
   }, [targetId, hovered]);
 
   function handleMouseEnter(e) {
-    // console.log(e.currentTarget.id);
+  
     setHovered(true);
     setTargetId(e.currentTarget.id);
   }
